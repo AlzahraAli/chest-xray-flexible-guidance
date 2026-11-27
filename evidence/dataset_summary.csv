@@ -1,0 +1,4 @@
+split,images,patients,positive,negative,image_percentage
+train,21456,9161,4885,16571,80.41
+val,2628,1145,585,2043,9.85
+test,2600,1146,542,2058,9.74

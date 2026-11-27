@@ -1,0 +1,16 @@
+{
+  "seed": 43,
+  "batch_size": 16,
+  "epochs": 5,
+  "workers": 2,
+  "feasibility": false,
+  "method": "binary",
+  "condition": "unchanged",
+  "lam": 1.0,
+  "learning_rate": 0.0001,
+  "patience": 5,
+  "mixed_precision": true,
+  "rho": 0.05,
+  "pad_frac": 0.1,
+  "validation_loss": "classification_only"
+}

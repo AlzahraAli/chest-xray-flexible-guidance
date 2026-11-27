@@ -1,0 +1,39 @@
+{
+  "run": "distance_weighted_enlarge_lam1_seed44_ep5",
+  "method": "distance_weighted",
+  "condition": "enlarge",
+  "seed": 44,
+  "lambda": 1.0,
+  "checkpoint_sha256": "dcebbe5d34cd1d83089e0b710163aa5da976259366ef3cee29a6a3d529b42bd9",
+  "split_sha256": {
+    "val": "090632fba9b7746e40659be626fe7170dac96b4358584cabbf2cf1326deaf87f",
+    "test": "e685cd8b17e323752c97f3dbd8f1231a5098eb91ffe8bf55117a80c0a7918a7f"
+  },
+  "source_sha256": {
+    "run_evaluation.py": "1d81f82f581f084ccf0b15ac5793f6a0f7021ed5fcd91956fede93ccf79cb8a4",
+    "evaluate.py": "6fd2277e603bc8b5e6b936d4cb9fca3273eeb0a0923fbedaf0d08159a6f5ed1f",
+    "dataset.py": "c6727c8766629f9630c6a606ffcc03f564858a5f5c78f05396a6ee04d39d1a31",
+    "model.py": "5d1332d13683a829acedf4dd1ba5475cacc557de280b7f1bb9f237cb30277aa2"
+  },
+  "best_epoch": 3,
+  "checkpoint_val_auroc": 0.8940635315084655,
+  "val": {
+    "auroc": 0.8940635315084655,
+    "f1": 0.6576373212942062,
+    "mean_iou": 0.24305639066229934,
+    "hit_rate": 0.8547008547008547,
+    "cls_threshold": 0.24999999999999994,
+    "heatmap_threshold": 0.1,
+    "num_annotated_positives": 585
+  },
+  "test": {
+    "auroc": 0.8791226031793845,
+    "f1": 0.6243050039714059,
+    "mean_iou": 0.25469280452843723,
+    "hit_rate": 0.8394833948339483,
+    "cls_threshold": 0.24999999999999994,
+    "heatmap_threshold": 0.1,
+    "num_annotated_positives": 542
+  },
+  "predictions_sha256": "244e0dee70def080408d33b5920467b1cdff1867a5cfd7a202fb72f82c8706fb"
+}
