@@ -1,0 +1,39 @@
+{
+  "run": "distance_weighted_translate_lam1_seed42_ep5",
+  "method": "distance_weighted",
+  "condition": "translate",
+  "seed": 42,
+  "lambda": 1.0,
+  "checkpoint_sha256": "efcd911ba41a8e2dfb0bf506987ec60f10202220c7096b668104202ffeac5473",
+  "split_sha256": {
+    "val": "090632fba9b7746e40659be626fe7170dac96b4358584cabbf2cf1326deaf87f",
+    "test": "e685cd8b17e323752c97f3dbd8f1231a5098eb91ffe8bf55117a80c0a7918a7f"
+  },
+  "source_sha256": {
+    "run_evaluation.py": "1d81f82f581f084ccf0b15ac5793f6a0f7021ed5fcd91956fede93ccf79cb8a4",
+    "evaluate.py": "6fd2277e603bc8b5e6b936d4cb9fca3273eeb0a0923fbedaf0d08159a6f5ed1f",
+    "dataset.py": "c6727c8766629f9630c6a606ffcc03f564858a5f5c78f05396a6ee04d39d1a31",
+    "model.py": "5d1332d13683a829acedf4dd1ba5475cacc557de280b7f1bb9f237cb30277aa2"
+  },
+  "best_epoch": 4,
+  "checkpoint_val_auroc": 0.8933242968485259,
+  "val": {
+    "auroc": 0.8933242968485259,
+    "f1": 0.6666666666666666,
+    "mean_iou": 0.2506619179566216,
+    "hit_rate": 0.8803418803418803,
+    "cls_threshold": 0.27999999999999997,
+    "heatmap_threshold": 0.1,
+    "num_annotated_positives": 585
+  },
+  "test": {
+    "auroc": 0.8835177455273096,
+    "f1": 0.6253776435045317,
+    "mean_iou": 0.25724950701408145,
+    "hit_rate": 0.8413284132841329,
+    "cls_threshold": 0.27999999999999997,
+    "heatmap_threshold": 0.1,
+    "num_annotated_positives": 542
+  },
+  "predictions_sha256": "032cedc244c4dd0e14507abcdc5e64efc6a041b6907ab92d00187cebbd9ffd6c"
+}
